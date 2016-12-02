@@ -20,7 +20,8 @@ def count(number):
 
     """
     Count the trailing zeros.
-    Can be done in few way but this one is with parsing it to string and reversing it.
+    Can be done in few way but this one is with parsing it to
+    string and reversing it.
 
     """
 

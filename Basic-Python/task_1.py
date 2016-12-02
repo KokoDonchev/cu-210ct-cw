@@ -1,7 +1,8 @@
 """"
 Week 1 Task 1
 
-Write a function that randomly shuffles an array of integers and explain the rationale behind its implementation.
+Write a function that randomly shuffles an array of integers and explain the
+rationale behind its implementation.
 
 """
 

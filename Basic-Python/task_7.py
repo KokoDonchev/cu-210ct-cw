@@ -1,8 +1,8 @@
 """
 Week 3 Task 2
 
-Write a recursive function (pseudocode and code) to check if a number n is prime (hint: check
-whether nis divisible by any number below n).
+Write a recursive function (pseudocode and code) to check if a number n
+is prime (hint: check whether nis divisible by any number below n).
 
 """
 

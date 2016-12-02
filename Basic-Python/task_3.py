@@ -1,15 +1,16 @@
 """
 Week 2 Task 1
 
-Write the pseudocode for a function which returns the highest perfect square which is less or equal to its parameter
-(a positive integer). Implement this in a programming language of your choice.
+Write the pseudocode for a function which returns the highest perfect square
+which is less or equal to its parameter (a positive integer).
+Implement this in a programming language of your choice.
 
 
 Pseudocode
 
-Perfect-Square(number)
+PERFECT-SQUARE(number)
     i <- 0
-    while i * i is less or equal to number
+    while i * i <= number
         i <- i + 1
     i <- i - 1
 
@@ -28,7 +29,7 @@ def highestPerfectSquare(number):
     i = 0
     while i * i <= number:
         i += 1
-    i -= 1  # preparing to multiply the previous number by itself because we need the closest lower number
+    i -= 1  # to multiply the previous number by itself as we need the lower one
     return i * i
 
 try:

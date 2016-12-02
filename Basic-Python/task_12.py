@@ -1,3 +1,11 @@
+"""
+Week 6 Task 1
+
+Implement TREE_SORT algorithm in a language of your choice, but make sure that
+the INORDER function is implemented iteratively.
+
+"""
+
 #include <iostream>
 
 class BinTreeNode(object):
@@ -41,7 +49,9 @@ def in_order(tree):
 
 
 def in_order_i(tree):
-
+    """
+    Making the nodes in an order iteratively
+    """
     buffer = []
     ordered = []
 
@@ -50,7 +60,7 @@ def in_order_i(tree):
             buffer.append(tree)
             tree = tree.left
         else:
-            tree = buffer.pop()
+            tree = buffer.pop(-1)
             ordered.append(tree.value)
             tree = tree.right
 

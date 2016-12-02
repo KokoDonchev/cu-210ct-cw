@@ -1,3 +1,11 @@
+"""
+Week 5 Task 2
+
+Based on the Python code or the C++ code provided in class as a starting point,
+implement the double linked list node delete function.
+
+"""
+
 class Node(object):
     def __init__(self, value):
         self.value = value
@@ -33,13 +41,15 @@ class List(object):
         print("List: ", ",".join(values))
 
     def delete(self, y):
+        """
+        When we are working with double linked lists, we don't delete
+        the actual value, we remove its pointer! a.k.a index
+        """
 
         cn = self.head  # our current node
 
         while cn is not None:
             if cn.value == y:
-                print(cn.value)
-
                 if cn.prev is not None:
                     cn.prev.next = cn.next
                     cn.next.prev = cn.prev
