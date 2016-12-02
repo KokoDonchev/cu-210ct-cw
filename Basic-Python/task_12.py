@@ -43,6 +43,7 @@ def in_order(tree):
 def in_order_i(tree):
 
     buffer = []
+    ordered = []
 
     while (tree != None or len(buffer) > 0):
         if (tree != None):
@@ -50,8 +51,10 @@ def in_order_i(tree):
             tree = tree.left
         else:
             tree = buffer.pop()
-            print(tree.value)
+            ordered.append(tree.value)
             tree = tree.right
+
+    return ordered
 
 
 if __name__ == '__main__':
@@ -62,4 +65,5 @@ if __name__ == '__main__':
     tree_insert(t, 3)
     tree_insert(t, 4)
     tree_insert(t, 11)
-    in_order_i(t)
+
+    print(in_order_i(t))
