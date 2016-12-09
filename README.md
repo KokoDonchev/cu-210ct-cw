@@ -14,5 +14,5 @@
 </ul>
 
 <h1>Contact information</h1>
-<p>You can check my LinkedIn profile <a target="_blank" href="https://www.linkedin.com/in/nikoladonchev">here</a> and this is my contack email: me@donchev.net</p>
+<p>You can check my LinkedIn profile <a target="_blank" href="https://www.linkedin.com/in/nikoladonchev">here</a> and this is my contact email: me@donchev.net</p>
 <p>My personal website: <a href="http://donchev.net" target="_blank">Donchev.NET</a></p>
